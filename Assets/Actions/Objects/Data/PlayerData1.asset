@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3642fc956b3734e93e599fb596c1c0, type: 3}
+  m_Name: PlayerData1
+  m_EditorClassIdentifier: 
+  objectName: 
+  objectID: player1
+  objectPrefab: {fileID: 967901523668226395, guid: 1f839ec477f3444449de78886c846288, type: 3}
+  lv: 1
+  hp: 5
+  mp: 1
+  ofence: 1
+  defaultAttr: 0
+  abilityDamages:
+    list:
+    - Key: "\u901A\u5E38\u653B\u6483"
+      Value: 10
+    - Key: "\u653B\u6483\uFF11"
+      Value: 10
+    - Key: "\u653B\u6483\uFF12"
+      Value: 20
+  defenceList:
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
